@@ -44,6 +44,7 @@ insight.getUnspentUtxos(address1, function(err, utxos){
                 console.log(error);
             } else {
                 console.log("successful broadcast: " + txId);
+                // console.log("successful broadcast: " + tx);
             }
          })
          
